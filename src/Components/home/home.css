@@ -1,0 +1,84 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* =====Buttons==== */
+
+.buttons{
+    margin-top:2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ====Homesocials ===*/
+.home__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position:absolute;
+    left: 0;
+    bottom: 5rem;
+}
+
+.home__socials::after{
+    content: "";
+    width: 2px;
+    height: 2rem;
+    background:var(--color-primary);
+}
+
+/* ====me===*/
+.me{
+    background:linear-gradient(var(--color-primary),transparent);
+    width:22rem;
+    height:30rem;
+    position:absolute;
+    left:34%;
+    margin-top: 2rem;
+    overflow: hidden;
+    border-radius: 50%; 
+    
+}
+
+.scroll__down{
+    position: absolute;
+    right:-4rem;
+    bottom:5rem;
+    transform:rotate(90deg);
+    font-size: 200;
+}
+
+@media screen and (max-width:1024px){
+   header{
+    height:68vh;
+   }
+    .me{
+    left: 25%
+ }
+  
+    
+ }
+
+ /*=============Mediaqueries- (small devices)================================*/
+  @media screen and (max-width:600px){
+  header{
+        height:100vh;
+       }
+ .me{
+    left: 3%
+ }
+ .home__socials,.scroll__down{
+    display: none;
+ }
+ }
+
