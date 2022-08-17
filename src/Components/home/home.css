@@ -77,8 +77,12 @@ header{
  .me{
     left: 5%;
  }
+  .scroll__down,
  .home__socials{
     display: none;
  }
+  
+  
+
  }
 

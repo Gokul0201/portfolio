@@ -28,11 +28,11 @@ const Contact = () => {
           </article>
         </div>
         <form action=''>
-          {/* <label for="name">Name </label> */}
+          <label for="name">Name </label> 
           <input type="text" name="name" placeholder="Your Full Name" required/>
-          {/* <label for="email">Email</label> */}
+          <label for="email">Email</label>
           <input type="email" name="email" placeholder="Your Email"  required/>  
-          {/* <label for="message">Message</label> */}
+          <label for="message">Message</label>
           <textarea name="message" placeholder="Your Message"cols="20" rows="7" required></textarea>
           <button type="submit" className='btn btn-primary'>Submit</button>
         </form>
