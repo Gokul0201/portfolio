@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import Buttons from './Buttons'
-import Image from '../../Assets/pp-removebg-preview.png'
+import Image from '../../Assets/images/me.png'
 import HomeSocials from './HomeSocials'
 const Home = () => {
   return <>
@@ -16,7 +16,7 @@ const Home = () => {
       <div className="me">
         <img src={Image} alt='me' />
       </div>
-      <div><a href='#contact' className='scroll__down'>Scroll down   >></a></div>
+      <div><a href='#contact' className='scroll__down'>Scroll down --- </a></div>
     
   
     </div>

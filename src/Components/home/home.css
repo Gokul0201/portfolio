@@ -46,7 +46,7 @@ header{
     left:34%;
     margin-top: 2rem;
     overflow: hidden;
-    border-radius: 50%; 
+    border-radius: 30%; 
     
 }
 
@@ -75,9 +75,9 @@ header{
         height:100vh;
        }
  .me{
-    left: 3%
+    left: 5%;
  }
- .home__socials,.scroll__down{
+ .home__socials{
     display: none;
  }
  }
