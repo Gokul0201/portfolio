@@ -1,7 +1,6 @@
 import React from 'react'
 import './skill.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
-
 const Skills = () => {
   return (
     <section id="skills"> 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import Buttons from './Buttons'
-import Image from '../../Assets/images/me.png'
+import Image from '../../Assets/images/2021-software-development-salary-trends.png'
 import HomeSocials from './HomeSocials'
 const Home = () => {
   return <>

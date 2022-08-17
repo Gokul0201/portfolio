@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
-import image from '../../Assets/images/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
+import image from '../../Assets/images/pp.jpg'
 
 const About = () => {
   return (
