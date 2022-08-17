@@ -16,7 +16,7 @@ const Home = () => {
       <div className="me">
         <img src={Image} alt='me' />
       </div>
-      <div><a href='#contact' className='scroll__down'>Scroll down --- </a></div>
+      <div><a href='#contact' className='scroll__down'>Scroll down --> </a></div>
     
   
     </div>
