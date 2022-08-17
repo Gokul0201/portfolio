@@ -1,6 +1,9 @@
 import React from 'react'
 import './skill.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
+import{FaReact,FaHtml5,FaCss3Alt,FaBootstrap} from  'react-icons/fa'
+import {SiJavascript,SiExpress,SiMysql,SiMongodb,SiPostman,SiNetlify,SiHeroku} from 'react-icons/si'
+import{DiNodejs,DiGit} from 'react-icons/di'
 const Skills = () => {
   return (
     <section id="skills"> 
@@ -12,23 +15,23 @@ const Skills = () => {
         <h3 >Frontend Development</h3>
         <div className='skills_content'>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <FaHtml5 />
           <h4>HTML</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <FaCss3Alt />
           <h4>CSS</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <SiJavascript />
           <h4>Javascript</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <FaReact />
           <h4>React Js</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <FaBootstrap />
           <h4>Bootstrap</h4>
           </article>
           
@@ -39,19 +42,19 @@ const Skills = () => {
         <h3 >Backend Development</h3>
         <div className='skills_content'>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <DiNodejs />
           <h4>NodeJs</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <SiMongodb />
           <h4>MongoDB</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <SiExpress />
           <h4>ExpressJs</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <SiMysql/>
           <h4>My SQL</h4>
           </article>
         </div>
@@ -61,19 +64,19 @@ const Skills = () => {
         <h3 >Other skills</h3>
         <div className='skills_content'>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <DiGit />
           <h4>Git</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <SiPostman />
           <h4>Postman</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <SiNetlify />
           <h4>Netilfy</h4>
           </article>
           <article className='skills_details'>
-          <BsPatchCheckFill />
+          <SiHeroku />
           <h4>Heroku</h4>
           </article>
         </div>
