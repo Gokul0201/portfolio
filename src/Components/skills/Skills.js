@@ -1,6 +1,7 @@
 import React from 'react'
 import './skill.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
+
 const Skills = () => {
   return (
     <section id="skills"> 
@@ -53,6 +54,28 @@ const Skills = () => {
           <article className='skills_details'>
           <BsPatchCheckFill />
           <h4>My SQL</h4>
+          </article>
+        </div>
+      </div>
+
+      <div className='other_skills'>
+        <h3 >Other skills</h3>
+        <div className='skills_content'>
+          <article className='skills_details'>
+          <BsPatchCheckFill />
+          <h4>Git</h4>
+          </article>
+          <article className='skills_details'>
+          <BsPatchCheckFill />
+          <h4>Postman</h4>
+          </article>
+          <article className='skills_details'>
+          <BsPatchCheckFill />
+          <h4>Netilfy</h4>
+          </article>
+          <article className='skills_details'>
+          <BsPatchCheckFill />
+          <h4>Heroku</h4>
           </article>
         </div>
       </div>
