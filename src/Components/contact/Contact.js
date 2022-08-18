@@ -3,21 +3,21 @@ import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
 import  { useRef } from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs.sendForm('service_kbmh0hc', 'template_llrg94n', form.current, '6GgLdpdCE6_CNFTpH')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+  //   emailjs.sendForm('service_kbmh0hc', 'template_llrg94n', form.current, '6GgLdpdCE6_CNFTpH')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
    
   return (
     <section id="contact">
