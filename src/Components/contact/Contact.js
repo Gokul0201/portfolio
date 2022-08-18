@@ -2,10 +2,22 @@ import {React}from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
-// import emailjs from 'emailjs';
+import  { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kbmh0hc', 'template_llrg94n', form.current, '6GgLdpdCE6_CNFTpH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
    
   return (
     <section id="contact">
@@ -23,11 +35,11 @@ const Contact = () => {
           <article className='contact_option'>
               <BsWhatsapp className='contact_option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+91 9159550219</h5>
+            <h5>9159550219</h5>
             <a href='https://api.whatsapp.com/send?phone=9159550219'>Send a message</a>
           </article>
         </div>
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <label for="name">Name </label> 
           <input type="text" name="name" placeholder="Your Full Name" required/>
           <label for="email">Email</label>
@@ -40,5 +52,5 @@ const Contact = () => {
     </section>
   )
 }
-
+}
 export default Contact

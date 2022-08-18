@@ -27,7 +27,7 @@ const About = () => {
        I primarily work with MERN stack among the full stack technologies. As a full stack developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to revolutionize the project I work on.
 
         </p>
-        <a href='#projects' className='btn'>view projects</a>
+        <a href='#projects' className='btn'>View Projects</a>
       </div>
       </div>
   </section>
