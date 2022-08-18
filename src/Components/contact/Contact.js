@@ -2,7 +2,7 @@ import {React}from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
-import  { useRef } from 'react';
+// import  { useRef } from 'react';
 // import emailjs from 'emailjs-com';
 
 
@@ -39,7 +39,7 @@ const Contact = () => {
             <a href='https://api.whatsapp.com/send?phone=9159550219'>Send a message</a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form action="">
           <label for="name">Name </label> 
           <input type="text" name="name" placeholder="Your Full Name" required/>
           <label for="email">Email</label>
@@ -52,5 +52,5 @@ const Contact = () => {
     </section>
   )
 }
-}
+
 export default Contact
