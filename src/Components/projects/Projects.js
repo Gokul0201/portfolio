@@ -1,28 +1,14 @@
 import React from 'react'
 import './project.css'
-import IMG1 from '../../Assets/images/portfolio1.jpg'
+import IMG1 from '../../Assets/inventory-analysis-optimize-operations-header-image-2x-us-en.jpg'
 const Projects = () => {
   const data=[
     {
       id:'1',
       image:IMG1,
-      title:'project title1',
-      github:'https://github.com',
-      demo:'https://github.com'
-    },
-    {
-      id:'2',
-      image:IMG1,
-      title:'project title2',
-      github:'https://github.com',
-      demo:'https://github.com'
-    },
-    {
-      id:'3',
-      image:IMG1,
-      title:'project title3',
-      github:'https://github.com',
-      demo:'https://github.com'
+      title:'Inventory Billing',
+      github:'https://github.com/Gokul0201/Inventory-Billing-FE.git',
+      demo:'https://inevntory-billing.netlify.app/'
     }
   ]
   return (
