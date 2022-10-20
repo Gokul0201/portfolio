@@ -19,11 +19,11 @@ const Footer = () => {
       <div className='footer_socials'>
          <a href="http://linkedin.com/in/gokula-krishnan-9527b0183" target="_blank" rel='noreferrer'><BsLinkedin/></a>
          <a href="https://github.com/Gokul0201" target="_blank" rel='noreferrer'><FaGithub/></a>
-         <a href="https://www.instagram.com/gokul2_/" target="_blank" rel='noreferrer'><BsInstagram/></a>
+         {/* <a href="https://www.instagram.com/gokul2_/" target="_blank" rel='noreferrer'><BsInstagram/></a> */}
     </div>
 
     <div className='footer_copyright'>
-      <small>&copy;Gokulakrishnan  Designed By Gokulakrishnan</small>
+      <small>&copy; Gokulakrishnan  Designed By Gokulakrishnan</small>
     </div>
     </footer>
   )

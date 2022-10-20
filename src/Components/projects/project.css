@@ -1,13 +1,15 @@
 .projects_container{
     display:grid;
     grid-template-columns: repeat(3 ,1fr);
-    gap: 2.5rem;
+    gap: 2rem;
+    margin-left: 7rem;
 }
 
 .project_item{
     background-color: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 2rem;
+    margin-right: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -27,7 +29,7 @@
 
 .project_item-link{
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     margin-bottom: 1rem;
 }
 

@@ -1,14 +1,33 @@
 import React from 'react'
 import './project.css'
 import IMG1 from '../../Assets/inventory-analysis-optimize-operations-header-image-2x-us-en.jpg'
+import IMG2 from '../../Assets/Chat-by-back1design1-580x416.png'
+import IMG3 from '../../Assets/unnamed.png'
 const Projects = () => {
   const data=[
     {
       id:'1',
       image:IMG1,
       title:'Inventory Billing',
-      github:'https://github.com/Gokul0201/Inventory-Billing-FE.git',
+      github_FE:'https://github.com/Gokul0201/Inventory-Billing-FE.git',
+      github_BE:'https://github.com/Gokul0201/Inventory-billing-BE.git',
       demo:'https://inevntory-billing.netlify.app/'
+    },
+    {
+      id:'2',
+      image:IMG2,
+      title:'POSTBOX',
+      github_FE:'https://github.com/Gokul0201/Postbox-chat-FE.git',
+      github_BE:'https://github.com/Gokul0201/PostBox_chat-BE.git',
+      demo:'https://postbox-chat.netlify.app/'
+    },
+    {
+      id:'3',
+      image:IMG3,
+      title:'WEB SCRAPPING',
+      github_FE:'https://github.com/Gokul0201/WebScrapper-Ecommerce-frontend.git',
+      github_BE:'https://github.com/Gokul0201/WebScrapper-Ecommerce-backend.git',
+      demo:'https://webscrape-ecommerce.netlify.app/'
     }
   ]
   return (
@@ -25,10 +44,13 @@ const Projects = () => {
           </div>
           <h3>{e.title}</h3>
           <div className="project_item-link">
-          <a href={e.github} className="btn" target='_blank' rel='noreferrer'>GIT HUB</a>
+          <a href={e.github_FE} className="btn" target='_blank' rel='noreferrer'>Front End</a>
+          <a href={e.github_BE} className="btn" target='_blank' rel='noreferrer'>Back End</a>
           <a href={e.demo} className="btn btn-primary" target='_blank' rel='noreferrer'>Live Demo</a>
-         </div>         
+         </div>        
         </article>
+
+        
         )})
       }
         
