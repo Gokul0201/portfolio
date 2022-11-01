@@ -3,6 +3,7 @@ import './project.css'
 import IMG1 from '../../Assets/inventory-analysis-optimize-operations-header-image-2x-us-en.jpg'
 import IMG2 from '../../Assets/Chat-by-back1design1-580x416.png'
 import IMG3 from '../../Assets/unnamed.png'
+import IMG4 from '../../Assets/unnamed (1).jpg'
 const Projects = () => {
   const data=[
     {
@@ -31,7 +32,7 @@ const Projects = () => {
     },
     {
       id:'4',
-      image:IMG3,
+      image:IMG4,
       title:'TENTKOTTA',
       github_FE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-FE.git',
       github_BE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-BE.git',
