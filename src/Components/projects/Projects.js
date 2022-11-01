@@ -52,9 +52,9 @@ const Projects = () => {
             <img src={e.image} alt=" "></img>
           </div>
           <h3>{e.title}</h3>
-          <p> Credentials</p>
-          <p>username:demo123</p>
-          <p>password:12345678</p>
+          <p> Credentials:</p>
+          <p>Username:demo123</p>
+          <p>Password:12345678</p>
           <div className="project_item-link">
           <a href={e.github_FE} className="btn" target='_blank' rel='noreferrer'>Front End</a>
           <a href={e.github_BE} className="btn" target='_blank' rel='noreferrer'>Back End</a>
