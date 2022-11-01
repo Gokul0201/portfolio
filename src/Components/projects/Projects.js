@@ -28,6 +28,14 @@ const Projects = () => {
       github_FE:'https://github.com/Gokul0201/WebScrapper-Ecommerce-frontend.git',
       github_BE:'https://github.com/Gokul0201/WebScrapper-Ecommerce-backend.git',
       demo:'https://webscrape-ecommerce.netlify.app/'
+    },
+    {
+      id:'4',
+      image:IMG3,
+      title:'TENTKOTTA',
+      github_FE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-FE.git',
+      github_BE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-BE.git',
+      demo:''
     }
   ]
   return (
@@ -43,6 +51,9 @@ const Projects = () => {
             <img src={e.image} alt=" "></img>
           </div>
           <h3>{e.title}</h3>
+          <p> Credentials</p>
+          <p>username:demo123</p>
+          <p>password:12345678</p>
           <div className="project_item-link">
           <a href={e.github_FE} className="btn" target='_blank' rel='noreferrer'>Front End</a>
           <a href={e.github_BE} className="btn" target='_blank' rel='noreferrer'>Back End</a>

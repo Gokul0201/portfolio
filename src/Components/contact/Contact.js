@@ -30,8 +30,8 @@ const Contact = () => {
           <article className='contact_option'>
               <MdEmail className='contact_option-icon'/>
             <h4>Email</h4>
-            <h5>gokulakrishnan.kumaravel02@gmail.com</h5>
-            <a href='mailto:gokulakrishnan.kumaravel02@gmail.com'>Send a message</a>
+            <h5>kgokula314@gmail.com</h5>
+            <a href='mailto:kgokula314@gmail.com'>Send a message</a>
           </article>
           <article className='contact_option'>
               <BsWhatsapp className='contact_option-icon'/>
