@@ -36,7 +36,7 @@ const Projects = () => {
       title:'TENTKOTTA',
       github_FE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-FE.git',
       github_BE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-BE.git',
-      demo:''
+      demo:'https://tentkotta.netlify.app/'
     }
   ]
   return (
