@@ -4,14 +4,25 @@ section{
 .projects_container{
     display:grid;
     grid-template-columns: repeat(3 ,1fr);
-    gap: 2rem;
-    margin: 7rem;
+    gap: 2.5rem;
+    margin-left: 6rem;
   
 }
+.credentials{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--color-light);
+}
+
+.description{
+    margin-bottom: 1.5rem;
+}
+
+
 
 .project_item{
     background-color: var(--color-bg-variant);
-    padding: 1rem;
+    padding: 1.3rem;
     border-radius: 2rem;
     margin-right: 1rem;
     border: 1px solid transparent;
@@ -35,15 +46,26 @@ section{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    
+}
+
+@media screen and (max-width:2560px){
+    .skills_container{
+        grid-template-columns: repeat(5 ,2fr);
+        gap:7rem;
+    }
+
 }
 
 @media screen and (max-width:1024px){
     .skills_container{
-        grid-template-columns:1fr;
+        grid-template-columns:1fr 1fr ;
+        gap:3rem;
+      
     }
    
      
-  }
+  } 
  
   /*=============Mediaqueries- (small devices)================================*/
    @media screen and (max-width:600px){
