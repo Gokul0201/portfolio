@@ -50,7 +50,7 @@ const Projects = () => {
      <div className='credentials'>
      <h5>Credentials</h5>
       <h5>User: (username:demo123,password:12345678)</h5>
-      <h5>Admin: (username:admin123,password:12345678)</h5>
+      <h5>Admin: (username:admin,password:12345678)</h5>
       </div>
       <div className="container projects_container">{
         data.map((e) => {
