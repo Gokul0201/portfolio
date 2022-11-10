@@ -4,6 +4,7 @@ import IMG1 from '../../Assets/inventory-analysis-optimize-operations-header-ima
 import IMG2 from '../../Assets/Chat-by-back1design1-580x416.png'
 import IMG3 from '../../Assets/unnamed.png'
 import IMG4 from '../../Assets/unnamed (1).jpg'
+import IMG5 from '../../Assets/download (1).jfif'
 const Projects = () => {
   const data=[
     {
@@ -37,7 +38,7 @@ const Projects = () => {
       id:'4',
       image:IMG4,
       title:'TENTKOTTA',
-      description:"Tentkotta App is an movie ticket booking app.In this app Admin Control also used.",
+      description:"Tentkotta App is an movie ticket booking app.In this app Admin Control also used ",
       github_FE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-FE.git',
       github_BE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-BE.git',
       demo:'https://tentkotta.netlify.app/'
@@ -67,11 +68,19 @@ const Projects = () => {
           <a href={e.demo} className="btn btn-primary" target='_blank' rel='noreferrer'>Live Demo</a>
          </div>        
         </article>
-
-        
         )})
       }
-        
+         <article  className="project_item">
+          <div className="project_item-image">
+            <img src={IMG5} alt=" "></img>
+          </div>
+          <h3>RazorPay</h3>
+          <p className="description">Simple Razorpay Gateway App</p>
+          <div className="project_item-link">
+          <a href="https://github.com/Gokul0201/Razorpay-Gateway.git" className="btn" target='_blank' rel='noreferrer'>Front End</a>
+          <a href="https://razorpay-gateway.netlify.app/" className="btn btn-primary" target='_blank' rel='noreferrer'>Live Demo</a>
+         </div>        
+        </article>
       </div>
     </section>
   )
