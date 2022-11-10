@@ -37,7 +37,7 @@ const Projects = () => {
       id:'4',
       image:IMG4,
       title:'TENTKOTTA',
-      description:"Tentkotta App is an movie ticket booking app.",
+      description:"Tentkotta App is an movie ticket booking app.In this app Admin Control also used.",
       github_FE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-FE.git',
       github_BE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-BE.git',
       demo:'https://tentkotta.netlify.app/'
