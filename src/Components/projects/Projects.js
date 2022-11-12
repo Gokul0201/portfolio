@@ -41,7 +41,7 @@ const Projects = () => {
       description:"Tentkotta App is an movie ticket booking app.In this app Admin Control also used ",
       github_FE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-FE.git',
       github_BE:'https://github.com/Gokul0201/Tentkotta-movie-booking-app-BE.git',
-      demo:'https://tentkotta.netlify.app/'
+      demo:'https://tentkotta-01.netlify.app/'
     }
   ]
   return (
@@ -78,7 +78,7 @@ const Projects = () => {
           <p className="description">Simple Razorpay Gateway App</p>
           <div className="project_item-link">
           <a href="https://github.com/Gokul0201/Razorpay-Gateway.git" className="btn" target='_blank' rel='noreferrer'>Front End</a>
-          <a href="https://razorpay-gateway.netlify.app/" className="btn btn-primary" target='_blank' rel='noreferrer'>Live Demo</a>
+          <a href="https://tentkotta.netlify.app/" className="btn btn-primary" target='_blank' rel='noreferrer'>Live Demo</a>
          </div>        
         </article>
       </div>
